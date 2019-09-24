@@ -1,0 +1,158 @@
+\documentclass[25pt, a0paper, portrait]{tikzposter}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%\usepackage{subcaption}
+%\usepackage{subfig}
+
+\title{\parbox{\linewidth}{\centering Bridging Science, Art, and Community in the New Arctic through Wikimedia projects}}
+
+\author{ \mbox{\tiny}\\ Daniel Mietchen}
+% \date{\today}
+\institute{\href{https://datascience.virginia.edu/}{School of Data Science}, University of Virginia, {\texttt{daniel.mietchen@virginia.edu}}, \href{https://twitter.com/EvoMRI}{@EvoMRI}\\  \mbox{\tiny}\\ 
+DOI: \href{http://doi.org/10.5281/zenodo.3459316}{10.5281/zenodo.3459316}}
+
+
+%\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage[export]{adjustbox}
+%\usepackage{times,latexsym}
+
+\usetheme{Board}
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{columns}
+    \column{0.30}
+ 
+
+%     \block{Wikimedia projects}
+%     {
+%         \begin{tikzfigure}
+%             \includegraphics[width=0.18\textwidth, center]{images/Wikimedia-logos.png}
+%         \end{tikzfigure}
+
+% }
+
+    \block{Paintings with icebergs}
+    {
+        \begin{tikzfigure}
+            \includegraphics[width=0.21\textwidth, center]{images/Paintings-depicting-icebergs.jpg}
+            \caption{\href{https://w.wiki/8jz}{Wikidata Query Service results} for \\
+            ``paintings depicting icebergs''.
+            }
+        \end{tikzfigure}
+
+}
+
+
+
+    \column{0.70}
+
+    \block{Open communities collaborating across sciences, arts \& much more}
+{   
+    Wikipedia and its connected Wikimedia projects are highly popular platforms with options to deliver general reference information to large audiences at low cost. Furthermore, anyone who contributes to Wikipedia enables the crowdsourced enrichment of their information through routine wiki-platform processes for translation, remixing, and combining of media. \\
+
+    The suite of Wikimedia projects is basically organized around information channels. Most of these exist in multiple languages (Wikipedia in around 300), so the entire Wikimedia ecosystem consists of \href{https://www.wikidata.org/wiki/Special:SiteMatrix}{about 1000 wikis}, each of which is a collaborative platform governed by a community of volunteers. 
+    Over 100 community organizations (chapters, user groups and thematic organizations) have been formed to coordinate Wikimedia-based activities in specific local, regional, thematic or technical contexts. \\
+        
+    This ecosystem covers almost all fields of knowledge, with notable gaps in areas underrepresented in Western scholarship or media coverage, which includes the Arctic and its natural and sociocultural contexts. For anyone seeking to encourage the curation, distribution, and discussion of information about Arctic science and culture, the Wikimedia platform offers competitive options as compared to any other outreach strategy.
+
+}
+
+\end{columns}
+
+%\begin{columns}
+
+    \block{Coverage of the New Arctic}
+{    
+    Wikimedia platforms cover the Arctic from both natural and sociocultural perspectives. Their media offerings are comparable to and cataloged like multiple special collections in an archive all available for querying and reuse. As an introduction, consider that WikiProject Arctic has more than 4000 English Wikipedia articles, interlinked with equivalent articles in 100+ different languages of varying completeness. WikiProject Climate Change presents 1500 articles, including the most popularly accessed articles on the subject. Photo archives number to tens of thousands of items, and the general reference Wikidata includes mapping, biographical, art, publication, and event records to complement every encyclopedic topic in Wikipedia and beyond.
+
+}
+    \block{Science}
+    {
+    
+    \begin{tikzfigure}%[!htb]
+\minipage{0.18\textwidth}
+  \includegraphics[width=\linewidth]{images/Global_Warming_Map.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Global_Warming_Map.jpg}{Map of global temperatures}, showing massive effects in the Arctic region already a decade ago.}\label{fig:fig1} 
+\endminipage\hfill
+\minipage{0.14\textwidth}
+  \includegraphics[width=\linewidth]{images/697px-Greenland_Albedo_Change.png}
+  \caption{In Greenland, \href{https://commons.wikimedia.org/wiki/File:Greenland_Albedo_Change.png}{albedo decreased} from 2000 till 2006.}\label{fig:fig1} 
+\endminipage\hfill
+\minipage{0.20\textwidth}
+  \includegraphics[width=\linewidth]{images/Melting_pingo_wedge_ice.jpg}
+  \caption{A melting \href{https://commons.wikimedia.org/wiki/File:Melting_pingo_wedge_ice.jpg}{pingo} in Canada's Northwest Territories.}
+\endminipage\hfill
+\minipage{0.20\textwidth}
+  \includegraphics[width=\linewidth]{images/1024px-Greenland-sydkap_hg.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Greenland-sydkap_hg.jpg}{Vegetation near Sydkap, Greenland}.}
+\endminipage\hfill
+\minipage{0.15\textwidth}
+  \includegraphics[width=\linewidth]{images/Lyuba.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Lyuba.jpg}{Mammoth mummy ``Lyuba''} was conserved in Siberian permafrost for 40,000 years.}
+\endminipage\hfill
+\end{tikzfigure}
+}
+    \block{Art}
+    {
+    
+    \begin{tikzfigure}%[!htb]
+\minipage{0.17\textwidth}
+  \includegraphics[width=\linewidth]{images/640px-Wooden_snow_goggles-L0058740.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Wooden_snow_goggles_and_case,_Inuit,_North_America,_1801-190_Wellcome_L0058740.jpg}{Wooden snow goggles with decorated case}.}
+\endminipage\hfill
+\minipage{0.19\textwidth}
+  \includegraphics[width=\linewidth]{images/WLM-2019.png}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Participating_Countries_WLM_2019.svg}{Wiki Loves Monuments}, the largest photography contest in the World, documents cultural heritage.}
+\endminipage\hfill
+\minipage{0.17\textwidth}
+  \includegraphics[width=\linewidth]{images/640px-Dorset-ivory-polar-bear.jpg}
+  \caption{An \href{https://w.wiki/8pJ}{ivory carving of a polar bear} from the Dorset culture.}
+\endminipage\hfill
+\minipage{0.16\textwidth}
+  \includegraphics[width=\linewidth]{images/Portal-Arktis.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Image_of_the_month_page_of_the_Arctic_Portal_on_the_German_Wikipedia_-_2019-09-24_at_03.14.46.png}{``Image of the month'' page of the Arctic Portal on the German Wikipedia}.}
+\endminipage\hfill
+\minipage{0.14\textwidth}
+  \includegraphics[width=\linewidth]{images/Inuit-figurines-carved-out-of-serpentine-family.jpg}
+  \caption{\href{https://w.wiki/8pL}{Inuit family figurines} carved out of serpentine.}
+\endminipage\hfill
+\end{tikzfigure}
+}
+
+%\begin{columns}
+    \block{Communities}
+    {
+    
+    \begin{tikzfigure}%[!htb]
+\minipage{0.16\textwidth}
+  \includegraphics[width=\linewidth]{images/Circumpolar-populations-2009.png}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Circumpolar_coastal_human_population_distribution_ca._2009.png}{Human coastal populations around the Arctic}.}
+\endminipage\hfill
+\minipage{0.16\textwidth}
+  \includegraphics[width=\linewidth]{images/640px-Liv-Inger-Somby-2019.jpg}
+  \caption{\href{https://w.wiki/8pH}{Traditional clothing and tent of the Sami in Scandinavia.}}
+\endminipage\hfill
+\minipage{0.15\textwidth}
+  \includegraphics[width=\linewidth]{images/Wikipedia-logo-v2-iu-svg.png}
+  \caption{Wikipedia exists \href{https://iu.wikipedia.org/}{in Inuktitut} and other Arctic languages.}
+\endminipage\hfill
+\minipage{0.16\textwidth}
+  \includegraphics[width=\linewidth]{images/1024px-Upernavik_first_day_in_class_2007-08-14_2.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Upernavik_first_day_in_class_2007-08-14_2.jpg}{Children in Upernavik on their first day of school}.}
+\endminipage\hfill
+\minipage{0.18\textwidth}
+  \includegraphics[width=\linewidth]{images/Scholia-permafrost-co-author-network.jpg}
+  \caption{\href{https://commons.wikimedia.org/wiki/File:Scholia_co-authorship_network_for_the_topic_of_permafrost_-_screenshot_2019-09-24_at_05.00.57.png}{Partial co-authorship graph for authors of works on permafrost}.}
+\endminipage\hfill
+\end{tikzfigure}
+
+}
+\end{document}
